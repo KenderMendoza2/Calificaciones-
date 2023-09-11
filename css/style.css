@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.fondo{
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 4rem 4rem 4rem 4rem;
+}
+.contenedor{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 3rem;
+}
+.title{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 2rem;
+}
+.btn{
+    align-content: center;
+    height: 25px;
+    padding-top: 2.5rem;
+    border-radius: 20rem;
+}
+button{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 0;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    width: 9rem;
+}
+button:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 0;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    width: 9rem;
+}
+label{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+input{
+    background-color: transparent;
+    padding-top: 8px;
+    border: solid 1px;
+    font-size: 26px;
+    color: white;
+    text-align: center; 
+}
+input:hover{
+    background-color: rgb(95, 95, 95, 0.3);
+    border: solid 1px rgb(0, 0, 0);
+    font-size: 26px;
+    text-align: center; 
+}
+#resp{
+    color: white;
+}
+
+/* todo responsive */
+@media screen and (max-width: 800px) {
+    body{
+        margin: 0;
+        padding: 0;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+    .fondo{
+        border-radius: 25px;
+        background-color: rgba(255, 255, 255, 0.4);
+        margin: 4rem 3rem 3rem 1.5rem;
+        top: 50%;
+        left: 50%;
+        width: 286px;
+        border-radius: 51px;
+        padding-top: 7px;
+        padding-right: 5px;
+        padding-bottom: 27px;
+    }
+    .contenedor{
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0px;
+        padding-bottom: 1rem;
+        
+    }
+    .title{
+        text-align: center;
+        padding-top: 30px;
+        color: white;
+        font-size: 28px;
+    }
+    .btn{
+        align-content: center;
+        height: 25px;
+        padding-top: 2.5rem;
+        border-radius: 20rem;
+        display: inline-grid;
+    }
+    button{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.4);
+        border: 0;
+        border-radius: 20px;
+        font-size: 1.5rem;
+        width: 9rem;
+        margin-top: 10px;
+    }
+    button:hover{
+        color: black;
+        background-color: rgba(255, 255, 255, 0.4);
+        border: 0;
+        border-radius: 20px;
+        font-size: 1.5rem;
+        width: 9rem;
+    }
+    label{
+        font-size: 30px;
+        text-align: center;
+        color: white;
+    }
+    input{
+        background-color: transparent;
+        padding-top: 8px;
+        border: solid 1px;
+        font-size: 26px;
+        color: white;
+        text-align: center; 
+        width: 179px;
+    }
+    input:hover{
+        background-color: rgb(95, 95, 95, 0.3);
+        border: solid 1px rgb(0, 0, 0);
+        font-size: 26px;
+        text-align: center; 
+    }
+    #resp{
+        color: white;
+        margin-top: 76px;
+    }  
+}
